@@ -1,0 +1,16 @@
+{
+    "name": "Bookmark Queue Assistant",
+    "version": "0.1",
+    "description": "...",
+    "permissions": [
+        "bookmarks",
+        "tabs"
+    ],
+    "background" : {
+        "scripts" : ["background.js"]
+      },
+    "browser_action": {
+        "default_title": "Bookmark Queue Assistant"
+    },
+    "manifest_version": 2
+}
